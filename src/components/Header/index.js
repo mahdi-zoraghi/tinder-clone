@@ -6,7 +6,7 @@ import {
 } from "@material-ui/icons"
 import { Link, useHistory } from "react-router-dom"
 
-import "./Header.css"
+import "./Header.scss"
 
 function Header({ backButton }) {
   const history = useHistory()

@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Avatar } from "@material-ui/core"
 
-import "./ChatScreen.css"
+import "./ChatScreen.scss"
 
 function ChatScreen() {
   const [input, setInput] = useState("")

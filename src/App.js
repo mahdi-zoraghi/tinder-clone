@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
-import Header from "./Header"
-import TinderCards from "./TinderCards"
-import SwipeButtons from "./SwipeButtons"
-import Chats from "./Chats"
-import ChatScreen from "./ChatScreen"
+import Header from "./components/Header"
+import TinderCards from "./components/TinderCards"
+import SwipeButtons from "./components/SwipeButtons"
+import Chats from "./components/Chats"
+import ChatScreen from "./components/ChatScreen"
 
-import "./App.css"
+import "./App.scss"
 
 function App() {
   return (

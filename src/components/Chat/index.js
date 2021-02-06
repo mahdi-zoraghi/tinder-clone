@@ -1,7 +1,7 @@
 import { Avatar } from "@material-ui/core"
 import { Link } from "react-router-dom"
 
-import "./Chat.css"
+import "./Chat.scss"
 
 function Chat({ name, message, timestamp, profilePic }) {
   return (

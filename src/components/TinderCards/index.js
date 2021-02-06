@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react"
 import TinderCard from "react-tinder-card"
 
-import { db } from "./firebase"
+import { db } from "../../firebase"
 
-import "./TinderCards.css"
+import "./TinderCards.scss"
 
 function TinderCards() {
   const [people, setPeople] = useState([])

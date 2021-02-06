@@ -7,7 +7,7 @@ import {
   FlashOn as FlashOnIcon,
 } from "@material-ui/icons"
 
-import "./SwipeButtons.css"
+import "./SwipeButtons.scss"
 
 function SwipeButtons() {
   return (
